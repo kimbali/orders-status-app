@@ -1,0 +1,30 @@
+#login {
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        color: $subFontColor;
+
+        input {
+            border-radius: 10px;
+            background-color: $background;
+            height: 3rem;
+            border: none;
+            padding: 1rem;
+            margin: 0.5rem 0 3rem;
+            caret-color: $third;
+
+            &::placeholder {
+                color: $lightFontColor;
+            }
+
+            &:focus {
+                outline: thin dashed $third;
+            }
+        }
+
+    }
+
+    .arrow {
+        margin-top: 2rem;
+    }
+}

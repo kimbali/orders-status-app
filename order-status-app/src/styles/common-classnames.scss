@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.root {
+    height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: $background;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: $shadow;
+    background-color: $white;
+    padding: 1rem;
+
+    @include media('from-tablet') {
+        padding: 1.5rem;
+    }
+
+    &-container {
+        width: 90vw;
+
+        @include media('from-tablet') {
+            width: 32rem;
+        }
+    }
+
+    &-title {
+        font-size: 24px;
+        margin-bottom: 1.5rem;
+        font-weight: 100;
+
+        @include media('from-tablet') {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &-cta {
+        background-color: $third;
+        color: white;
+        font-size: 20px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-bottom: 2rem;
+    }
+}

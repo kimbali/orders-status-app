@@ -1,0 +1,24 @@
+.orders-list {
+    padding: 0;
+
+    &-item {
+        list-style: none;
+        margin-bottom: 1rem;
+
+        &-container {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            margin-bottom: 1rem;
+
+            >div:first-child {
+                flex-grow: 1;
+            }
+
+            >div:last-child {
+                width: 45%;
+            }
+        }
+
+    }
+}

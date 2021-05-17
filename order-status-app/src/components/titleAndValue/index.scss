@@ -1,0 +1,22 @@
+.title-value-container {
+    p {
+        color: $lightFontColor;
+        font-size: 12px;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+
+    strong {
+        font-size: 14px;
+        color: $mainFontColor;
+
+        span,
+        small {
+            display: block;
+        }
+
+        small {
+            font-size: 10px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.arrow {
+    margin: 1rem 0;
+    cursor: pointer;
+
+    svg {
+        transform: rotate(180deg);
+        opacity: 0.8;
+    }
+}

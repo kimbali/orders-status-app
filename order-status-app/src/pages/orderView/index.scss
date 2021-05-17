@@ -1,0 +1,40 @@
+.order-view {
+    .card {
+        margin: 1rem 0;
+        padding-bottom: 2rem;
+    }
+
+    &-articles-list {
+        padding: 0;
+    }
+
+    &-article {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        &-name {
+            font-size: 12px;
+            flex-grow: 1;
+
+            p {
+                margin: 0 0 0.5rem;
+            }
+        }
+
+        &-quantity {
+            color: $subFontColor;
+            font-size: 12px;
+        }
+
+        img {
+            height: 2.2rem;
+            margin: 0 1rem;
+        }
+
+        small {
+            color: $subFontColor;
+        }
+    }
+}

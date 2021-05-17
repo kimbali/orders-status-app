@@ -1,0 +1,20 @@
+// Responsive
+@mixin media($point) {
+    @if $point==from-desktop {
+        @media (min-width: 1140px) {
+            @content;
+        }
+    }
+
+    @else if $point==from-tablet {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $point==mobile {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+}
