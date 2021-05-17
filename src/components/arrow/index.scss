@@ -1,6 +1,8 @@
 .arrow {
     margin: 1rem 0;
     cursor: pointer;
+    background: transparent;
+    border: none;
 
     svg {
         transform: rotate(180deg);
