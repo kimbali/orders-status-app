@@ -1,9 +1,9 @@
 # Order Status
 
+[LIVE DEMO](https://orders-status-app.vercel.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 It renders an interface to see orders related to an email.
-
-It uses SASS as CSS extension language.
 
 ## Project structure
 
@@ -18,9 +18,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### `npm run test`
 
 Launches jest tests
@@ -28,3 +25,6 @@ Launches jest tests
 ### `npm run test-u`
 
 To update snapshots
+
+# API REPO
+[View api repo](https://github.com/kimbali/orders-status-app)
