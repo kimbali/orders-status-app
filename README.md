@@ -27,4 +27,4 @@ Launches jest tests
 To update snapshots
 
 # API REPO
-[View api repo](https://github.com/kimbali/orders-status-app)
+[View api repo](https://github.com/kimbali/orders-status-api)
